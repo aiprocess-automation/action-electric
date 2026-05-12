@@ -1,29 +1,64 @@
 {
   "meta": {
     "archetype": "trades",
-    "title": "Hillcrest Plumbing & Heating",
-    "description": "Vancouver's original plumbing and heating service for over 60 years. 24/7 emergency plumbing across Greater Vancouver.",
-    "locale": "en"
+    "title": "Action Electric",
+    "description": "Action Electric — Burnaby, BC",
+    "locale": "en",
+    "stockCredits": []
   },
   "business": {
-    "name": "Hillcrest Plumbing & Heating",
-    "tagline": "Vancouver's original plumbing & heating since the 1960s.",
-    "phone": "+1-604-879-5301",
+    "name": "Action Electric",
+    "tagline": "Action Electric",
+    "phone": "(604) 216-1521",
     "email": "",
-    "ownerEmail": "",
-    "schemaType": "Plumber",
+    "ownerEmail": "eoikawa@paladintechnologies.com",
+    "schemaType": "electrician",
     "priceRange": "$$",
     "address": {
-      "street": "3260 Main Street",
-      "city": "Vancouver",
+      "street": "3250 Beta Avenue",
+      "city": "Burnaby",
       "region": "BC",
-      "postal": "V5V 3M5",
+      "postal": "V5G 4K4",
       "country": "CA",
-      "lat": 49.2481,
-      "lng": -123.1013
+      "lat": 49.255869999999994,
+      "lng": -122.99757059999997
     },
     "hours": [
-      { "day": "Monday – Sunday", "open": "Open 24 Hours", "close": "" }
+      {
+        "day": "Monday",
+        "open": "8:00 AM",
+        "close": "5:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "open": "8:00 AM",
+        "close": "5:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "open": "8:00 AM",
+        "close": "5:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "open": "8:00 AM",
+        "close": "5:00 PM"
+      },
+      {
+        "day": "Friday",
+        "open": "8:00 AM",
+        "close": "5:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "open": "Closed",
+        "close": ""
+      },
+      {
+        "day": "Sunday",
+        "open": "Closed",
+        "close": ""
+      }
     ],
     "socials": {}
   },
@@ -33,22 +68,48 @@
       "type": "hero",
       "variant": "phone-prominent",
       "data": {
-        "eyebrow": "VANCOUVER PLUMBER",
-        "headline": "Burst pipe? Boiler down? We answer the phone.",
-        "subhead": "Family-owned plumbing and heating service in Vancouver for over 60 years. Same-day work across Greater Vancouver.",
-        "trustItems": ["Licensed & Insured", "24/7 Emergency Service", "60+ Years Experience"],
-        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" },
-        "secondaryCta": { "label": "Get a Free Quote", "action": "scroll", "target": "contact" }
+        "eyebrow": "EST. 1973",
+        "headline": "50+ Years of Commercial Electrical Work in BC",
+        "subhead": "Emergency service answered 24/7. Four vans on the road. Call the team that keeps your project moving.",
+        "trustItems": [
+          "Founded 1973 — 50+ years in BC",
+          "24/7 Emergency Response",
+          "Licensed & Fully Insured",
+          "Paladin Group of Companies"
+        ],
+        "primaryCta": {
+          "label": "Call Now",
+          "action": "tel",
+          "target": "(604) 216-1521"
+        },
+        "secondaryCta": {
+          "label": "Get a Quote",
+          "action": "scroll",
+          "target": "#contact"
+        }
       }
     },
     {
       "type": "stats",
       "data": {
+        "eyebrow": "BY THE NUMBERS",
         "items": [
-          { "value": "60+", "label": "Years in business" },
-          { "value": "24/7", "label": "Emergency response" },
-          { "value": "4.8★", "label": "Google rating" },
-          { "value": "10k+", "label": "Jobs completed" }
+          {
+            "value": "1973",
+            "label": "Year founded — over 50 years in BC"
+          },
+          {
+            "value": "24/7",
+            "label": "Emergency service, 365 days a year"
+          },
+          {
+            "value": "4",
+            "label": "Service vans deployed across the Lower Mainland"
+          },
+          {
+            "value": "$2M+",
+            "label": "Single-project scope delivered"
+          }
         ]
       }
     },
@@ -56,60 +117,44 @@
       "type": "services",
       "variant": "grid-3",
       "data": {
-        "eyebrow": "WHAT WE FIX",
-        "headline": "Plumbing and heating, done right.",
+        "eyebrow": "SERVICES",
+        "headline": "Commercial Electrical, Start to Finish",
         "items": [
           {
-            "id": "plumbing-repairs",
-            "icon": "Wrench",
-            "title": "Plumbing Repairs",
-            "description": "Leaks, burst pipes, fixtures, and everything that drips, floods, or refuses to drain."
+            "id": "new-construction",
+            "icon": "Building2",
+            "title": "New Construction",
+            "description": "Tight timelines and high-spec installs demand a crew that scales. We crew up to meet your schedule without compromising finish quality or technical complexity."
           },
           {
-            "id": "water-heaters",
-            "icon": "Flame",
-            "title": "Water Heaters",
-            "description": "Install, repair, and replace tank and tankless water heaters from every major brand."
+            "id": "tenant-improvements",
+            "icon": "Hammer",
+            "title": "Tenant Improvements",
+            "description": "Tenant disruption and schedule risk are real. We work after hours, predict scope creep early, and keep every milestone on time."
           },
           {
-            "id": "drain-sewer",
-            "icon": "Waves",
-            "title": "Drain & Sewer",
-            "description": "Camera inspections, hydro jetting, and full drain replacements for stubborn blockages."
-          }
-        ]
-      }
-    },
-    {
-      "type": "reviews",
-      "variant": "testimonial-stack",
-      "data": {
-        "eyebrow": "WHAT NEIGHBOURS SAY",
-        "headline": "Real reviews, from real Vancouver customers.",
-        "items": [
-          {
-            "id": "r1",
-            "author": "Sarah M.",
-            "rating": 5,
-            "date": "2025-10-12",
-            "text": "Called at 2am for a burst pipe and they were at my door within 45 minutes. Professional, quick, and fair pricing.",
-            "source": "google"
+            "id": "fire-alarm-replacement",
+            "icon": "BellRing",
+            "title": "Fire Alarm Replacement",
+            "description": "Pre-2000 systems are reaching end of life — false alarms and obsolete parts erode life safety. We deliver turnkey replacements to current code."
           },
           {
-            "id": "r2",
-            "author": "James K.",
-            "rating": 5,
-            "date": "2025-09-03",
-            "text": "Hillcrest replaced our water heater the same day we called. The whole team was easy to deal with.",
-            "source": "google"
+            "id": "distribution-upgrades",
+            "icon": "Zap",
+            "title": "Distribution Upgrades",
+            "description": "Aging panels and rising power demands cap your building's potential. We upgrade distribution systems across commercial, retail, industrial, and multi-story residential."
           },
           {
-            "id": "r3",
-            "author": "Patricia L.",
-            "rating": 5,
-            "date": "2025-08-18",
-            "text": "60+ years in the neighbourhood for a reason. They actually pick up the phone — that alone is rare.",
-            "source": "google"
+            "id": "ev-charging-solutions",
+            "icon": "Car",
+            "title": "EV Charging Solutions",
+            "description": "Your tenants and customers expect EV charging. We deliver everything from single Level-2 installs to custom multi-175KW DC quick-charger kiosks."
+          },
+          {
+            "id": "service-small-contracts",
+            "icon": "Clock",
+            "title": "24/7 Service & Small Contracts",
+            "description": "Power doesn't fail on a schedule. Four service vans and two boom lifts mean we respond around the clock, every day of the year."
           }
         ]
       }
@@ -118,30 +163,103 @@
       "type": "about",
       "variant": "narrative-with-badges",
       "data": {
-        "eyebrow": "WHY HILLCREST",
-        "headline": "Family-owned, since the 1960s.",
-        "narrative": "Hillcrest Plumbing & Heating has been Vancouver's trusted plumber and heating specialist since the 1960s. We've built our reputation one job at a time — showing up on time, pricing fairly, and doing the work right. From Main Street to the North Shore, we serve the entire Greater Vancouver area, 24 hours a day, every day of the year.",
+        "eyebrow": "ABOUT US",
+        "headline": "Built on 50 Years of BC Electrical Work",
+        "narrative": "Action Electric has run commercial and industrial electrical projects across British Columbia since 1973. GM Mark Amos brings 25+ years in the trade — from service electrician to superintendent managing 25-plus electricians in downtown Vancouver. Project Manager John Vieira led the fire alarm upgrade at the Hotel Vancouver while the property stayed fully operational. As part of the Paladin Group of Companies, we coordinate electrical alongside security, data, and AV trades under one contract — fewer hand-offs, tighter scopes, better outcomes for clients.",
         "badges": [
-          { "label": "60+ Years in Business", "icon": "Award" },
-          { "label": "Licensed & Insured", "icon": "ShieldCheck" },
-          { "label": "Family Owned", "icon": "Heart" }
+          {
+            "label": "Fully Licensed & Certified",
+            "icon": "BadgeCheck"
+          },
+          {
+            "label": "Fully Insured",
+            "icon": "ShieldCheck"
+          },
+          {
+            "label": "Paladin Group Member",
+            "icon": "Building"
+          },
+          {
+            "label": "BC Hydro Incentive Advisory",
+            "icon": "Lightbulb"
+          }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "CLIENT REVIEWS",
+        "headline": "What Clients Say",
+        "items": [
+          {
+            "id": "r4",
+            "author": "David Kariotakis",
+            "rating": 5,
+            "date": "2022-06-24",
+            "text": "Can't say enough about their service. I was a first time client that operates a frozen food establishment. BC hydro came into do a routine meter exchange and found an issue with our meter panel and subsequently had to shut our power off. After calling our regular Electritian to look into fixing our challenge we found that he was on holidays. Ok now for a perfect storm.\nNo power and no Electritian. Upon his recommendation I called Action Electric. Without any previous  history of me being a client or knowing what the issue was they called the hydro team and got to the job of repairing and replacing the issue right away. Allan the Electritian was one of the most professional service men I have met in my years of doing business. He obtained the parts and headed over and got us back up and running within hours. It was not a small task. The prognosis with hydro was not good , I had to have a back up plan to rent large external generators or move thousands of pounds of frozen items to a cold storage which would have resulted in several man hours and a closure of our store.\nAllan was most helpful as he went beyond the normal call of his scope and co ordinated with the hydro team to restore the power quickly after his repair work was done. I cannot say enough about their work, service team and their coordinator on the phone Patty. Thank you guys you will be doing all my future work going forward.",
+            "source": "google"
+          },
+          {
+            "id": "r3",
+            "author": "Ford Chamberlain",
+            "rating": 5,
+            "date": "2024-11-20",
+            "text": "I hired Action Electric to complete a commercial project in Richmond recently. They could not have been more cooperative, knowledgeable, and professional. Excellent electrical outfit, I highly recommend Action.",
+            "source": "google"
+          },
+          {
+            "id": "r5",
+            "author": "Tyson Hamling",
+            "rating": 5,
+            "date": "2024-10-12",
+            "text": "Great service and quality work. Very knowledgeable and friendly crew. Would highly recommend.",
+            "source": "google"
+          }
         ]
       }
     },
     {
       "type": "cta-banner",
       "data": {
-        "headline": "Got a leak that won't wait?",
-        "subhead": "We answer 24 hours a day. Most calls dispatched within the hour.",
-        "primaryCta": { "label": "Call (604) 879-5301", "action": "tel", "target": "+16048795301" }
+        "headline": "Electrical problem right now?",
+        "subhead": "We run 4 service vans and answer 24/7 — including weekends and holidays.",
+        "primaryCta": {
+          "label": "Call Now",
+          "action": "tel",
+          "target": "(604) 216-1521"
+        }
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-left",
+        "text": {
+          "eyebrow": "WHY ACTION ELECTRIC",
+          "headline": "One Call Covers the Full Scope",
+          "body": "Complex commercial projects run into trouble at the trade handoff. Action Electric coordinates directly with other subcontractors — as we did on the $2M T&T Supermarket project in Richmond and the multi-phased ECCC Douglas Jung Building upgrade. Our crews perform after-hours work to eliminate tenant disruption, and we advise on BC Hydro incentives that can reduce your project cost. When your scope spans electrical, fire alarm, and data, we connect you to the full Paladin Group — one standard of quality across every trade.",
+          "cta": {
+            "label": "Get a Quote",
+            "action": "scroll",
+            "target": "#contact"
+          }
+        },
+        "image": {
+          "src": "/images/gallery-1.jpg",
+          "alt": "Action Electric crew on a large commercial electrical installation site"
+        }
       }
     },
     {
       "type": "contact-hours",
       "data": {
-        "headline": "Find us, or just call.",
+        "eyebrow": "CONTACT US",
+        "headline": "Reach the Action Electric Team",
         "showHoursTable": true,
-        "showContactForm": true
+        "showContactForm": true,
+        "mapEmbedUrl": "https://www.google.com/maps/embed/v1/place?q=3250+Beta+Ave,+Burnaby,+BC+V5G+4K4,+Canada"
       }
     }
   ]
