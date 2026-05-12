@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@theme {
+  /* Default = Energetic. Overridden per-theme via :root[data-theme]. */
+  --color-primary: #EA580B;
+  --color-accent: #F59E0B;
+  --color-surface: #FFEDD5;
+  --color-surface-2: #FED7AA;
+
+  /* Font stacks. The display var rebinds per theme via :root selectors. */
+  --font-sans: var(--font-inter, system-ui, -apple-system, sans-serif);
+  --font-display: var(--font-energetic-display, var(--font-inter), system-ui, sans-serif);
+}
+
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+/* ─── Per-theme palette + display-font overrides ─────────────────────
+   data-theme attribute is set on <html> from SiteConfig.theme — see
+   app/layout.tsx. Each block rebinds the same CSS-var slots so
+   Tailwind v4 token utilities (bg-primary, text-primary, etc.) and
+   our custom var() calls stay correct without per-component branching. */
+
+:root[data-theme='refined'] {
+  --color-primary: #1F3A5F;
+  --color-accent: #B08A4E;
+  --color-surface: #F8F6F1;
+  --color-surface-2: #EFEAE0;
+  --font-display: var(--font-refined-display, Georgia, 'Times New Roman', serif);
+}
+
+:root[data-theme='cafe'] {
+  --color-primary: #5D4432;
+  --color-accent: #D2A657;
+  --color-surface: #F9F7F5;
+  --color-surface-2: #E9E3DD;
+  --font-display: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+  --font-sans: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+}
+
+:root[data-theme='bold'] {
+  --color-primary: #0077BC;
+  --color-accent: #009866;
+  --color-surface: #0A0A0A;
+  --color-surface-2: #141414;
+  --font-display: var(--font-bold-display, 'Arial Black', system-ui, sans-serif);
+}
+
+:root[data-theme='clean'] {
+  --color-primary: #2563EB;
+  --color-accent: #6366F1;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F8FAFC;
+  --font-display: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+  --font-sans: var(--font-roboto, var(--font-inter), system-ui, sans-serif);
+}
+
+:root[data-theme='artistic'] {
+  --color-primary: #3B82F6;
+  --color-accent: #8B5CF6;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F1F5F9;
+  --font-display: var(--font-energetic-display, 'Arial Black', system-ui, sans-serif);
+}
+
+:root[data-theme='neobrutalism'] {
+  --color-primary: #FDC800;
+  --color-secondary: #432DD7;
+  --color-accent: #432DD7;
+  --color-surface: #FBFBF9;
+  --color-surface-2: #F4F4EE;
+  --font-display: var(--font-inter, system-ui, sans-serif);
+}
+
+:root[data-theme='corporate'] {
+  --color-primary: #3B82F6;
+  --color-accent: #8B5CF6;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F8FAFC;
+  --font-display: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+  --font-sans: 'Open Sans', var(--font-inter), system-ui, sans-serif;
+}
+
+:root[data-theme='elegant'] {
+  --color-primary: #0F172A;
+  --color-accent: #64748B;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F8FAFC;
+  --font-display: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+  --font-sans: var(--font-cafe-display, var(--font-inter), system-ui, sans-serif);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor scrolls so sticky header doesn't cover the target.
+   * The 4.5rem matches the maximum header height across themes; per-section
+   * scroll-margin overrides aren't needed because scroll-padding-top
+   * applies to all anchor navigation in the viewport. */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+  background: #ffffff;
+}
+
+/* Bold theme renders on a dark surface — the body background needs to
+ * pick that up so empty page space outside section components doesn't
+ * flash white during hydration. */
+:root[data-theme='bold'] body {
+  background: #0A0A0A;
+  color: #f5f5f5;
+}
+
+:target {
+  scroll-margin-top: 4.5rem;
+}

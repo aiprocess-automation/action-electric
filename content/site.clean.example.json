@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "archetype": "professional_services",
+    "title": "Westbrook Insurance Brokers — Vancouver",
+    "description": "Independent commercial and personal insurance brokerage in Vancouver, BC. Plain-language quotes, fair coverage, no surprises.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Westbrook Insurance Brokers",
+    "tagline": "Plain-language insurance for Vancouver businesses and families.",
+    "phone": "+1-604-555-0193",
+    "email": "hello@westbrookbrokers.example",
+    "ownerEmail": "hello@westbrookbrokers.example",
+    "schemaType": "InsuranceAgency",
+    "priceRange": "$$",
+    "address": {
+      "street": "555 West Hastings Street, Suite 1240",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V6B 4N6",
+      "country": "CA",
+      "lat": 49.2843,
+      "lng": -123.1130
+    },
+    "hours": [
+      { "day": "Mon – Fri", "open": "8:30", "close": "17:30" },
+      { "day": "Sat – Sun", "open": "Closed", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "clean",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "INDEPENDENT BROKERAGE",
+        "headline": "Insurance, in plain English.",
+        "subhead": "We work for you, not an insurer. Quotes from 14 carriers, fair recommendations, no jargon.",
+        "image": { "src": "/images/hero.jpg", "alt": "Westbrook Insurance team in their downtown Vancouver office" },
+        "trustItems": ["Independent — quotes from 14 carriers", "Same broker for life of policy", "Free coverage review"],
+        "primaryCta": { "label": "Get a quote", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Call us", "action": "tel", "target": "+16045550193" }
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "COVERAGE",
+        "headline": "Coverage we place often.",
+        "items": [
+          { "id": "commercial", "icon": "Building2", "title": "Commercial Property & Liability", "description": "Coverage for retail, restaurants, professional offices, contractors, and more." },
+          { "id": "auto", "icon": "Car", "title": "Personal Auto", "description": "ICBC plus optional add-ons. We'll find you the right combination, not the highest premium." },
+          { "id": "home", "icon": "Home", "title": "Home & Tenant", "description": "Standard, high-value, and condo policies. Detailed coverage reviews on request." }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "variant": "narrative-with-badges",
+      "data": {
+        "eyebrow": "WHO WE ARE",
+        "headline": "Three brokers, twenty years of experience.",
+        "narrative": "Westbrook Insurance Brokers was founded in 2009 by Sara Westbrook, joined by Jamie Lin in 2014 and Dev Patel in 2019. We're independent — we represent fourteen carriers, not one — and we keep our roster small on purpose so you talk to the same broker every year.",
+        "badges": [
+          { "label": "Independent Brokerage", "icon": "ShieldCheck" },
+          { "label": "Insurance Council of BC Licensed", "icon": "Award" },
+          { "label": "14 Carriers", "icon": "Building2" }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "RECENT CLIENTS",
+        "headline": "From the people who renewed with us this year.",
+        "items": [
+          { "id": "r1", "author": "Marisa T.", "rating": 5, "date": "2025-09-30", "text": "Sara reviewed our restaurant policy and saved us $1,800 by spotting overlapping coverage. Fast, kind, professional.", "source": "google" },
+          { "id": "r2", "author": "Greg H.", "rating": 5, "date": "2025-08-08", "text": "Got my home + auto + business bundled and somehow paid less than I had with one of the big-name companies. They explained everything in human English.", "source": "google" },
+          { "id": "r3", "author": "Aisha K.", "rating": 5, "date": "2025-07-15", "text": "Filed a claim through them after a break-in. They walked me through every step. The claim closed in under 3 weeks.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Free 15-minute coverage review.",
+        "subhead": "Send us your current policy. We'll tell you where you're over-paying or under-covered. No commitment.",
+        "primaryCta": { "label": "Request a review", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "GET IN TOUCH",
+        "headline": "Downtown Vancouver. Phone, email, or in-person.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

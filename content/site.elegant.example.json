@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "archetype": "beauty_personal_care",
+    "title": "Halia Rose — Vancouver",
+    "description": "Custom-bridal and special-occasion atelier in Vancouver, BC. Hand-finished pieces, made to measure.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Halia Rose",
+    "tagline": "Custom bridal and occasion atelier in Vancouver.",
+    "phone": "+1-604-555-0521",
+    "email": "atelier@haliarose.example",
+    "ownerEmail": "atelier@haliarose.example",
+    "schemaType": "ClothingStore",
+    "priceRange": "$$$$",
+    "address": {
+      "street": "Suite 304, 1118 Homer Street",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V6B 6L5",
+      "country": "CA",
+      "lat": 49.2781,
+      "lng": -123.1232
+    },
+    "hours": [
+      { "day": "Tue – Fri", "open": "By appointment", "close": "" },
+      { "day": "Saturday", "open": "10:00", "close": "16:00" }
+    ],
+    "socials": {}
+  },
+  "theme": "elegant",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "EST. 1996",
+        "headline": "Made for the day, kept for a lifetime.",
+        "subhead": "Custom bridal and special-occasion pieces, hand-finished in our Yaletown atelier. Two-fitting process, ninety-minute consultation.",
+        "image": { "src": "/images/hero.jpg", "alt": "Halia Rose atelier" },
+        "trustItems": ["Family-run since 1996", "By appointment", "Custom from $1,800"],
+        "primaryCta": { "label": "Book a fitting", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "View the lookbook", "action": "external", "target": "/docs/lookbook.pdf" }
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-right",
+        "text": {
+          "eyebrow": "OUR ATELIER",
+          "headline": "Three decades of bridal, by the same hands.",
+          "body": "Halia Rose was founded in 1996 by Halia Marlowe. Today the atelier is run with her daughter, Anya. Every piece is hand-cut, hand-finished, and hand-delivered. We work with eight to twelve brides each season."
+        },
+        "image": { "src": "/images/gallery-1.jpg", "alt": "Halia Rose at work" }
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "WHAT WE MAKE",
+        "headline": "Hand-finished, made to measure.",
+        "items": [
+          { "id": "bridal", "icon": "Heart", "title": "Bridal", "description": "Custom gowns from initial sketch through final fitting. Six-month timeline." },
+          { "id": "occasion", "icon": "Sparkles", "title": "Occasion", "description": "Mother-of, formal galas, milestone celebrations. Three-month timeline." },
+          { "id": "alterations", "icon": "Scissors", "title": "Alterations", "description": "Existing pieces, by appointment. Heritage and luxury garments only." }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "single-quote",
+      "data": {
+        "eyebrow": "FROM A RECENT BRIDE",
+        "headline": "What our brides have said.",
+        "items": [
+          { "id": "r1", "author": "Catherine V.", "rating": 5, "date": "2025-08-30", "text": "I cried at the first fitting. Halia and Anya understood what I wanted without me being able to articulate it. The dress was the most beautiful thing I have ever owned.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "pdf-download",
+      "data": {
+        "eyebrow": "VIEW",
+        "headline": "Recent collection.",
+        "description": "Our 2025 lookbook — recent commissions and signature silhouettes. By private appointment.",
+        "files": [
+          { "label": "2025 Lookbook", "url": "/docs/lookbook.pdf", "sizeLabel": "12 MB" }
+        ]
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "VISIT",
+        "headline": "Yaletown, by appointment.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

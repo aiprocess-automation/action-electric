@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "archetype": "food_beverage",
+    "title": "Bowen Bakery — Bowen Island, BC",
+    "description": "Family-owned bakery on Bowen Island. Sourdough, pastries, and coffee, baked fresh daily since 1994.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Bowen Bakery",
+    "tagline": "Sourdough, pastries, and coffee, since 1994.",
+    "phone": "+1-604-555-0181",
+    "email": "hello@bowenbakery.example",
+    "ownerEmail": "hello@bowenbakery.example",
+    "schemaType": "Bakery",
+    "priceRange": "$$",
+    "address": {
+      "street": "996 Government Road",
+      "city": "Bowen Island",
+      "region": "BC",
+      "postal": "V0N 1G0",
+      "country": "CA",
+      "lat": 49.3819,
+      "lng": -123.3367
+    },
+    "hours": [
+      { "day": "Tue – Fri", "open": "7:00", "close": "16:00" },
+      { "day": "Sat – Sun", "open": "8:00", "close": "15:00" },
+      { "day": "Monday", "open": "Closed", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "cafe",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "OPEN TUE – SUN",
+        "headline": "Sourdough, pastries, and coffee — baked fresh, every morning.",
+        "subhead": "A family bakery in Snug Cove. We mill our own flour, take our time, and we'd love to see you.",
+        "image": { "src": "/images/hero.jpg", "alt": "Bowen Bakery sourdough loaves cooling on a rack" },
+        "trustItems": ["Open since 1994", "Stone-milled flour", "Pickup orders welcome"],
+        "primaryCta": { "label": "Visit us", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Call (604) 555-0181", "action": "tel", "target": "+16045550181" }
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "WHAT WE BAKE",
+        "headline": "From the oven, every morning.",
+        "items": [
+          { "id": "sourdough", "icon": "Wheat", "title": "Sourdough Loaves", "description": "Country whites, dark ryes, seeded multigrains — all naturally leavened, baked daily." },
+          { "id": "pastries", "icon": "Croissant", "title": "Morning Pastries", "description": "Croissants, almond bear claws, kouign-amann. Laminated by hand, butter from a Fraser Valley farm." },
+          { "id": "coffee", "icon": "Coffee", "title": "Coffee & Espresso", "description": "Beans roasted weekly in East Van. Pour-overs, espresso drinks, drip — and a great oat milk." }
+        ]
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-right",
+        "text": {
+          "eyebrow": "THE STORY",
+          "headline": "Three generations on a small island.",
+          "body": "Margaret started this bakery in '94 with one oven and a sourdough starter she's been keeping alive for forty-one years. Today her son James and granddaughter Hana run the bakery, but the starter is the same."
+        },
+        "image": { "src": "/images/gallery-1.jpg", "alt": "Bowen Bakery's owner mixing dough" }
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "WHAT NEIGHBOURS SAY",
+        "headline": "From recent visitors.",
+        "items": [
+          { "id": "r1", "author": "Linda M.", "rating": 5, "date": "2025-09-14", "text": "Our weekend morning ritual. The sourdough is the best on the coast — full stop.", "source": "google" },
+          { "id": "r2", "author": "Tomás R.", "rating": 5, "date": "2025-08-03", "text": "We took the ferry over just for breakfast. Worth every minute. The almond croissants are unreal.", "source": "google" },
+          { "id": "r3", "author": "Elena K.", "rating": 5, "date": "2025-07-22", "text": "Hana remembers your order. The coffee is excellent. The vibe is everything you'd hope a small island bakery would be.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Order ahead for weekend pickup.",
+        "subhead": "Call by Friday — we save loaves for regulars who plan ahead.",
+        "primaryCta": { "label": "Call (604) 555-0181", "action": "tel", "target": "+16045550181" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "VISIT BOWEN",
+        "headline": "We're a five-minute walk from the Snug Cove ferry.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

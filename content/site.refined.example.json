@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "archetype": "professional_services",
+    "title": "Marlowe & Associates — Vancouver",
+    "description": "Family-owned estate planning and probate practice in Vancouver, BC. Quiet, careful work for two generations.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Marlowe & Associates",
+    "tagline": "Estate planning & probate in Vancouver, since 1968.",
+    "phone": "+1-604-555-0142",
+    "email": "office@marloweassociates.example",
+    "ownerEmail": "office@marloweassociates.example",
+    "schemaType": "Attorney",
+    "priceRange": "$$$",
+    "address": {
+      "street": "1188 West Georgia Street, Suite 1900",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V6E 4A2",
+      "country": "CA",
+      "lat": 49.2858,
+      "lng": -123.1208
+    },
+    "hours": [
+      { "day": "Mon – Fri", "open": "9:00", "close": "17:30" },
+      { "day": "Sat – Sun", "open": "By appointment", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "refined",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "ESTATE PLANNING · PROBATE",
+        "headline": "A practice built on quiet diligence.",
+        "subhead": "Helping Vancouver families navigate wills, trusts, and probate for over fifty years. Confidential consultations, fixed fees, no pressure.",
+        "image": {
+          "src": "/images/hero.jpg",
+          "alt": "Marlowe & Associates downtown Vancouver office"
+        },
+        "trustItems": ["Members of the Law Society of BC", "Fixed-fee engagements", "Initial consultation complimentary"],
+        "primaryCta": { "label": "Book a consultation", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Call (604) 555-0142", "action": "tel", "target": "+16045550142" }
+      }
+    },
+    {
+      "type": "about",
+      "variant": "narrative-with-badges",
+      "data": {
+        "eyebrow": "WHO WE ARE",
+        "headline": "Two generations of estate counsel in Vancouver.",
+        "narrative": "Marlowe & Associates was founded in 1968 by James Marlowe, KC. Today the practice is led by his daughter, Eleanor Marlowe, supported by a team of four lawyers and three paralegals. We work with British Columbia families on wills, representation agreements, probate, and the careful preparation that makes inheritance straightforward rather than fraught.",
+        "badges": [
+          { "label": "Founded 1968", "icon": "Award" },
+          { "label": "Law Society of BC", "icon": "ShieldCheck" },
+          { "label": "Fixed-fee engagements", "icon": "FileCheck" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "AREAS OF PRACTICE",
+        "headline": "Focused on what families actually need.",
+        "items": [
+          {
+            "id": "wills",
+            "icon": "FileText",
+            "title": "Wills & Estate Planning",
+            "description": "Comprehensive wills, representation agreements, and powers of attorney drafted to BC standards."
+          },
+          {
+            "id": "probate",
+            "icon": "Gavel",
+            "title": "Probate & Estate Administration",
+            "description": "Quiet, methodical administration of estates of every size — including the difficult ones."
+          },
+          {
+            "id": "trusts",
+            "icon": "Shield",
+            "title": "Trust Structuring",
+            "description": "Family trusts and continuation strategies that hold up across generations."
+          }
+        ]
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "value": "57", "label": "Years in practice" },
+          { "value": "1,200+", "label": "Estates administered" },
+          { "value": "4.9★", "label": "Average client rating" }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "single-quote",
+      "data": {
+        "eyebrow": "WHAT CLIENTS SAY",
+        "headline": "From a recent client.",
+        "items": [
+          {
+            "id": "r1",
+            "author": "Margaret L.",
+            "rating": 5,
+            "date": "2025-09-22",
+            "text": "Eleanor handled my mother's estate with extraordinary patience. The work was meticulous, the bills were exactly as quoted, and at no point did anyone make us feel rushed.",
+            "source": "google"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-right",
+        "text": {
+          "eyebrow": "OUR APPROACH",
+          "headline": "We bill the way doctors do — for time, with clear estimates.",
+          "body": "Most family-law firms bill by the hour with no commitment to a final number. We don't. Initial engagements are quoted as fixed fees with a written scope, and any change is discussed before work continues."
+        },
+        "image": {
+          "src": "/images/gallery-1.jpg",
+          "alt": "Marlowe & Associates conference room"
+        }
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Considering a will, or settling an estate?",
+        "subhead": "Initial consultations are complimentary and confidential. We respond within one business day.",
+        "primaryCta": { "label": "Book a consultation", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "VISIT OR CALL",
+        "headline": "We're downtown — and on the phone.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

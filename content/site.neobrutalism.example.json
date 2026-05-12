@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "archetype": "home_services",
+    "title": "Hatchet Cleaning Co. — Vancouver",
+    "description": "House cleaning, deep cleans, and move-out service across Greater Vancouver. Fixed-quote, no surprises.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Hatchet Cleaning Co.",
+    "tagline": "House cleaning that doesn't waste your time.",
+    "phone": "+1-604-555-0331",
+    "email": "book@hatchetclean.example",
+    "ownerEmail": "book@hatchetclean.example",
+    "schemaType": "HouseholdSupply",
+    "priceRange": "$$",
+    "address": {
+      "street": "2050 Pandora Street",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V5L 1N3",
+      "country": "CA",
+      "lat": 49.2854,
+      "lng": -123.0657
+    },
+    "hours": [
+      { "day": "Mon – Sat", "open": "8:00", "close": "18:00" },
+      { "day": "Sunday", "open": "Closed", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "neobrutalism",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "BOOK ONLINE",
+        "headline": "House cleaning that doesn't waste your time.",
+        "subhead": "Fixed-quote pricing. Same crew every visit. Bring your own products if you want — or use ours.",
+        "image": { "src": "/images/hero.jpg", "alt": "Hatchet Cleaning Co. crew" },
+        "trustItems": ["Fixed quotes", "Same crew, every visit", "Insured + bonded"],
+        "primaryCta": { "label": "Get a quote", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Call (604) 555-0331", "action": "tel", "target": "+16045550331" }
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "value": "850+", "label": "Vancouver homes" },
+          { "value": "9 yrs", "label": "Operating in BC" },
+          { "value": "4.9★", "label": "Google rating" },
+          { "value": "0", "label": "Hidden fees" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "WHAT WE DO",
+        "headline": "Three services. That's it.",
+        "items": [
+          { "id": "regular", "icon": "Sparkles", "title": "Regular Clean", "description": "Bi-weekly or monthly. Bathrooms, kitchens, floors, and dusting. About 2.5 hours for a 2BR." },
+          { "id": "deep", "icon": "Wand2", "title": "Deep Clean", "description": "Inside the oven, behind the appliances, baseboards, blinds. Annual or move-in." },
+          { "id": "moveout", "icon": "Truck", "title": "Move-Out Clean", "description": "Damage-deposit-grade. We've never had a tenant lose their deposit because of us." }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "REAL CLIENTS",
+        "headline": "What people say.",
+        "items": [
+          { "id": "r1", "author": "Mark D.", "rating": 5, "date": "2025-10-19", "text": "Booked the deep clean. Showed up on time, brought their own gear, finished in 4 hours. Will book again.", "source": "google" },
+          { "id": "r2", "author": "Priya S.", "rating": 5, "date": "2025-09-04", "text": "Bi-weekly for 18 months. Same crew every time, same standard. Worth every dollar.", "source": "google" },
+          { "id": "r3", "author": "Chen W.", "rating": 5, "date": "2025-08-12", "text": "Move-out clean for my landlord. Got the full deposit back. They charge fair, work fast, no nonsense.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Get a quote in under 2 minutes.",
+        "subhead": "Tell us your square footage and bedroom count. We'll text back within the hour.",
+        "primaryCta": { "label": "Get a quote", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "BOOK YOUR CLEAN",
+        "headline": "We answer between 8 and 6, six days a week.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

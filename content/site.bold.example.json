@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "archetype": "fitness",
+    "title": "Iron Yard CrossFit — Vancouver",
+    "description": "CrossFit gym in East Vancouver. Coach-led classes, no-bullshit programming, drop-ins welcome.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Iron Yard CrossFit",
+    "tagline": "Train hard. Recover. Repeat.",
+    "phone": "+1-604-555-0167",
+    "email": "info@ironyardcf.example",
+    "ownerEmail": "info@ironyardcf.example",
+    "schemaType": "ExerciseGym",
+    "priceRange": "$$",
+    "address": {
+      "street": "1455 Powell Street, Unit 4",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V5L 1H5",
+      "country": "CA",
+      "lat": 49.2842,
+      "lng": -123.0795
+    },
+    "hours": [
+      { "day": "Mon – Fri", "open": "5:30", "close": "21:00" },
+      { "day": "Sat – Sun", "open": "8:00", "close": "14:00" }
+    ],
+    "socials": {}
+  },
+  "theme": "bold",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "EAST VAN · SINCE 2018",
+        "headline": "Train hard. Recover. Repeat.",
+        "subhead": "Coach-led group classes, free drop-in for first-timers, no fitness theatre. Just the work.",
+        "image": { "src": "/images/hero.jpg", "alt": "Athletes in a CrossFit class at Iron Yard" },
+        "trustItems": ["35+ classes per week", "All levels welcome", "Drop-in your first session"],
+        "primaryCta": { "label": "Book a class", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Free drop-in", "action": "tel", "target": "+16045550167" }
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "value": "35+", "label": "Classes per week" },
+          { "value": "8", "label": "Certified coaches" },
+          { "value": "200+", "label": "Active members" },
+          { "value": "7", "label": "Years on Powell" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "PROGRAMS",
+        "headline": "Every class, coach-led.",
+        "items": [
+          { "id": "crossfit", "icon": "Dumbbell", "title": "CrossFit", "description": "Constantly varied, functional movement at high intensity. Scaled to every level." },
+          { "id": "olympic", "icon": "Award", "title": "Olympic Lifting", "description": "Snatch, clean, and jerk. Technique-first, programmed for progression." },
+          { "id": "rowing", "icon": "Activity", "title": "Conditioning", "description": "Erg-based engine work. Run faster. Recover faster. Move better outside the gym." }
+        ]
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "MEMBER VOICES",
+        "headline": "From the floor.",
+        "items": [
+          { "id": "r1", "author": "Mike P.", "rating": 5, "date": "2025-10-02", "text": "Best coaching in the city. They actually teach you how to lift.", "source": "google" },
+          { "id": "r2", "author": "Sarah J.", "rating": 5, "date": "2025-08-19", "text": "Walked in scared. Six months later I'm hitting PRs every week. The community is the difference.", "source": "google" },
+          { "id": "r3", "author": "Dev T.", "rating": 5, "date": "2025-07-11", "text": "Coach Erin scaled every movement to my injury. I never felt left behind.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "variant": "narrative-with-badges",
+      "data": {
+        "eyebrow": "WHO WE ARE",
+        "headline": "An East Van gym, run by coaches who actually coach.",
+        "narrative": "We opened in 2018 with one rule: every class is coached. Not a screen, not a Bluetooth speaker yelling at you — a person who watches you move, knows your name, and tells you when to stop. Eight CFL-1+ certified coaches, an Olympic-lifting specialist, and a head coach who programs every session.",
+        "badges": [
+          { "label": "CrossFit Affiliate", "icon": "Award" },
+          { "label": "8 Certified Coaches", "icon": "Users" },
+          { "label": "Drop-in Welcome", "icon": "Zap" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Drop in. First class on us.",
+        "subhead": "No commitment. Just show up. We'll size your shoes if you forget yours.",
+        "primaryCta": { "label": "Book a free drop-in", "action": "tel", "target": "+16045550167" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "FIND US",
+        "headline": "Powell Street. Easy parking on Hastings.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

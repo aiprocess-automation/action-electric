@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "archetype": "professional_services",
+    "title": "Pacific Cloud Advisors — Vancouver",
+    "description": "Independent cloud-migration consultancy for mid-market firms across BC and Alberta. AWS-certified, fixed-fee engagements.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "Pacific Cloud Advisors",
+    "tagline": "Independent cloud-migration for mid-market firms.",
+    "phone": "+1-604-555-0407",
+    "email": "engage@pacificcloud.example",
+    "ownerEmail": "engage@pacificcloud.example",
+    "schemaType": "ProfessionalService",
+    "priceRange": "$$$$",
+    "address": {
+      "street": "999 West Hastings Street, Suite 1810",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V6C 2W2",
+      "country": "CA",
+      "lat": 49.2868,
+      "lng": -123.1167
+    },
+    "hours": [
+      { "day": "Mon – Fri", "open": "8:30", "close": "17:30" }
+    ],
+    "socials": {}
+  },
+  "theme": "corporate",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "INDEPENDENT — AWS PARTNER NETWORK",
+        "headline": "Migrate your firm to cloud — in 6 weeks, not 6 months.",
+        "subhead": "We help mid-market companies (50-1000 employees) move workloads to AWS with fixed-fee engagements and senior-only consultants.",
+        "image": { "src": "/images/hero.jpg", "alt": "Pacific Cloud Advisors team" },
+        "trustItems": ["AWS Advanced Tier Partner", "Fixed-fee engagements", "Senior-only consultants", "Average migration: 6 weeks"],
+        "primaryCta": { "label": "Schedule a call", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Download our brief", "action": "external", "target": "/docs/capability.pdf" }
+      }
+    },
+    {
+      "type": "stats",
+      "data": {
+        "items": [
+          { "value": "60+", "label": "Migrations completed" },
+          { "value": "6 wks", "label": "Average timeline" },
+          { "value": "100%", "label": "On-time delivery" },
+          { "value": "12 yrs", "label": "Industry experience" }
+        ]
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "PRACTICE AREAS",
+        "headline": "What we deliver.",
+        "items": [
+          { "id": "migration", "icon": "Cloud", "title": "Cloud Migration", "description": "End-to-end AWS migration for legacy workloads. Lift-and-shift through full re-architecture." },
+          { "id": "cost", "icon": "BarChart3", "title": "Cost Optimization", "description": "Right-size existing footprints. Average client saves 30-40% in the first quarter." },
+          { "id": "security", "icon": "ShieldCheck", "title": "Security & Compliance", "description": "SOC 2, HIPAA, PIPEDA. We embed compliance into the migration, not after." }
+        ]
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-right",
+        "text": {
+          "eyebrow": "OUR APPROACH",
+          "headline": "Senior consultants only. No bait-and-switch.",
+          "body": "Every engagement is staffed with consultants who have at least 8 years of cloud experience. You meet them in the proposal call; they're the ones doing the work. No offshore handoff, no juniors learning on your project."
+        },
+        "image": { "src": "/images/gallery-1.jpg", "alt": "Pacific Cloud team in their downtown office" }
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "testimonial-stack",
+      "data": {
+        "eyebrow": "RECENT ENGAGEMENTS",
+        "headline": "From the firms we've worked with.",
+        "items": [
+          { "id": "r1", "author": "Jennifer K., CTO at Westbrook Insurance", "rating": 5, "date": "2025-10-04", "text": "Pacific moved our policy admin platform to AWS in five weeks, on the dollar. Their security review caught two issues our internal team had missed. Worth every penny.", "source": "google" },
+          { "id": "r2", "author": "Marcus L., VP IT at Coastal Health Systems", "rating": 5, "date": "2025-08-22", "text": "We interviewed three firms. Pacific was the only one that gave us a fixed quote with a clear scope. Delivered on time, no scope creep.", "source": "google" },
+          { "id": "r3", "author": "David R., COO at Northland Logistics", "rating": 5, "date": "2025-07-15", "text": "30% reduction in our AWS bill in the first month. Their cost-optimization audit paid for itself by week two.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "pdf-download",
+      "data": {
+        "eyebrow": "RESOURCES",
+        "headline": "Capability deck and case studies.",
+        "description": "Our methodology, recent engagement summaries, and a template scope-of-work for cloud migration.",
+        "files": [
+          { "label": "Capability Deck (Q4 2025)", "url": "/docs/capability.pdf", "sizeLabel": "3.2 MB" },
+          { "label": "Case Studies — Mid-Market", "url": "/docs/case-studies.pdf", "sizeLabel": "5.1 MB" },
+          { "label": "Sample SOW Template", "url": "/docs/sow-template.pdf", "sizeLabel": "640 KB" }
+        ]
+      }
+    },
+    {
+      "type": "about",
+      "variant": "narrative-with-badges",
+      "data": {
+        "eyebrow": "WHO WE ARE",
+        "headline": "Founded by ex-Amazon cloud architects.",
+        "narrative": "Pacific Cloud Advisors was founded in 2017 by James Chen and Diana Moreno, both former AWS solutions architects. We're a team of fourteen senior consultants based in Vancouver, with engagements across BC, Alberta, and Washington State.",
+        "badges": [
+          { "label": "AWS Advanced Tier Partner", "icon": "Award" },
+          { "label": "SOC 2 Type II", "icon": "ShieldCheck" },
+          { "label": "Founded 2017", "icon": "Building2" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Ready to scope a migration?",
+        "subhead": "Schedule a 30-minute call to discuss your workload and timeline. No commitment.",
+        "primaryCta": { "label": "Schedule a call", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "GET IN TOUCH",
+        "headline": "Downtown Vancouver. By appointment.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}

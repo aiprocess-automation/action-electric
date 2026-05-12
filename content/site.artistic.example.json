@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "archetype": "retail",
+    "title": "North Cove Studio — Vancouver",
+    "description": "Independent design studio in East Vancouver. Identity, packaging, and small-run print since 2014.",
+    "locale": "en"
+  },
+  "business": {
+    "name": "North Cove Studio",
+    "tagline": "Identity, packaging, print. Made by hand.",
+    "phone": "+1-604-555-0214",
+    "email": "hello@northcove.example",
+    "ownerEmail": "hello@northcove.example",
+    "schemaType": "GraphicDesigner",
+    "priceRange": "$$$",
+    "address": {
+      "street": "1024 Main Street, Studio 4",
+      "city": "Vancouver",
+      "region": "BC",
+      "postal": "V6A 2W2",
+      "country": "CA",
+      "lat": 49.2783,
+      "lng": -123.0989
+    },
+    "hours": [
+      { "day": "Tue – Fri", "open": "By appointment", "close": "" }
+    ],
+    "socials": {}
+  },
+  "theme": "artistic",
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "photo-led",
+      "data": {
+        "eyebrow": "EAST VAN — EST. 2014",
+        "headline": "Made.",
+        "subhead": "Independent design studio. We work with founders, restaurants, record labels, and a few wineries we like.",
+        "image": { "src": "/images/hero.jpg", "alt": "North Cove Studio interior" },
+        "trustItems": ["By referral", "Independent since 2014", "Print on-site"],
+        "primaryCta": { "label": "See the work", "action": "scroll", "target": "contact" },
+        "secondaryCta": { "label": "Start a project", "action": "tel", "target": "+16045550214" }
+      }
+    },
+    {
+      "type": "services",
+      "variant": "grid-3",
+      "data": {
+        "eyebrow": "DISCIPLINES",
+        "headline": "What we make.",
+        "items": [
+          { "id": "identity", "icon": "Palette", "title": "Identity", "description": "Wordmarks, logo systems, brand guidelines. The full kit." },
+          { "id": "packaging", "icon": "Package", "title": "Packaging", "description": "Bottle labels, food packaging, retail goods. Printed locally." },
+          { "id": "print", "icon": "Layers", "title": "Print", "description": "Posters, books, menus, ephemera. Letterpress and digital." }
+        ]
+      }
+    },
+    {
+      "type": "split-50-50",
+      "data": {
+        "side": "image-left",
+        "text": {
+          "eyebrow": "PROCESS",
+          "headline": "We make work that lasts.",
+          "body": "Most projects start with a long conversation. Then a moodboard. Then a single concept we believe in, presented with conviction. We don't do five-direction sprays."
+        },
+        "image": { "src": "/images/gallery-1.jpg", "alt": "North Cove studio process" }
+      }
+    },
+    {
+      "type": "reviews",
+      "variant": "single-quote",
+      "data": {
+        "eyebrow": "RECENT CLIENT",
+        "headline": "From a recent project.",
+        "items": [
+          { "id": "r1", "author": "Eliza T., Founder, Coal Harbour Coffee", "rating": 5, "date": "2025-09-12", "text": "They got it on the first round. The packaging won an ADCC award six months later. We've referred everyone we know.", "source": "google" }
+        ]
+      }
+    },
+    {
+      "type": "pdf-download",
+      "data": {
+        "eyebrow": "RESOURCES",
+        "headline": "Our process, in a deck.",
+        "description": "How we approach identity work — the questions we ask, our typical timeline, what to expect at each stage.",
+        "files": [
+          { "label": "Studio Process Deck", "url": "/docs/process.pdf", "sizeLabel": "2.4 MB" },
+          { "label": "Recent Case Studies", "url": "/docs/case-studies.pdf", "sizeLabel": "8.1 MB" }
+        ]
+      }
+    },
+    {
+      "type": "cta-banner",
+      "data": {
+        "headline": "Have a project in mind?",
+        "subhead": "We take on a small number of clients per year. Reach out — we'd like to hear about it.",
+        "primaryCta": { "label": "Start a conversation", "action": "scroll", "target": "contact" }
+      }
+    },
+    {
+      "type": "contact-hours",
+      "data": {
+        "eyebrow": "VISIT",
+        "headline": "By appointment, in East Van.",
+        "showHoursTable": true,
+        "showContactForm": true
+      }
+    }
+  ]
+}
